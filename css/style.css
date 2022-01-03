@@ -196,3 +196,34 @@
 [class*='col-']{
     float:left;
 }
+
+@media screen and (max-width:600px){
+    [class*="col-"] {
+        width:100%;
+      }
+      /* .header{ 
+        background:url(../images/header.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 700px;
+    }*/
+    .navbar{
+        padding:3% 5%;
+        min-height: 350px;
+        text-align: center;
+    }
+    .fa-utensils{
+        font-size:50px;
+    }
+    .menu-list ul li{
+        margin:5px;
+        width:100%;
+    }
+    .menu-list ul li a{
+        display: block;
+        background:rgb(58, 82, 18);
+        border-radius: 50px;
+    }
+}
